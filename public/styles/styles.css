@@ -1,0 +1,55 @@
+.list-group-item {
+  line-height: 2.5;
+}
+
+.modal-title, .close{
+  display: inline;
+}
+
+body {
+  background-image: url("../images/globes.jpg");  
+  color: white;
+}
+
+.navbar {
+  background-color: none;
+  color:white;
+}
+
+.wanderLust {
+  text-align: center;
+  font-size: 120px;
+}
+
+.description {
+  text-align: center;
+  padding: 15px;
+  margin: 0 auto;
+  width: 820px;
+  border: 2px solid #362e2e;
+}
+
+
+.list-group, .list-group-item{
+  background-color: transparent;
+}
+
+.saved{
+  margin-bottom: .1rem;
+}
+
+.btn1 {
+  align-content: center;
+  background: black;
+  margin-left: .5rem!important;
+  margin-right: .5rem!important;
+}
+
+
+.modal{
+  color: black;
+}
+
+.errorText{
+  color: red;
+}
