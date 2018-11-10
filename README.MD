@@ -7,3 +7,5 @@ Welcome to WanderLust! We are here to help you plan to travel around the world! 
 3. If the country is found, the facinating stats will load.
 4. Hit Save to save the search for later
 5. Some countries sadly don't have much info availible and an error will appear if we can't find anything. 
+
+Warning: Do NOT run over https. I won't work. Run it over http.
