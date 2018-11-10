@@ -41,9 +41,13 @@ for (i in isoCountries) {
           $("#myModal").modal("show");
   
         } else {
+
           $.ajax({
             url: queryURL,
-            method: "GET"
+            method: "GET",
+            dataType: "json",
+            //contentType: "application/x-www-form-urlencoded"
+            headers: {"Content-Type" : "application/x-www-form-urlencoded"}
           }).then(function (res) {
             console.log(res);
   
