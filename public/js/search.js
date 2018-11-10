@@ -32,7 +32,7 @@ for (i in isoCountries) {
         countryCode1 = $("#fixed-header-drawer-exp").val().toLowerCase();
         console.log(countryCode1);
   
-        queryURL = "https://inqstatsapi.inqubu.com/?api_key=01af562d77e556bb&data=medianwage,jobless_rate,bigmac_index,gini,life_expectancy,murder_rate,death_rate,happiness_index,corruption_index,literacy_rate,tax_revenue_total,median_age&countries=" + countryCode1;
+        queryURL = "http://inqstatsapi.inqubu.com/?api_key=01af562d77e556bb&data=medianwage,jobless_rate,bigmac_index,gini,life_expectancy,murder_rate,death_rate,happiness_index,corruption_index,literacy_rate,tax_revenue_total,median_age&countries=" + countryCode1;
   
         console.log(queryURL);
   
